@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 98%);
+    width: 450px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.card-content {
+    padding: 45px;
+}
+
+.Annual {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+}
+
+.Annual p {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.annual-rate {
+    font-weight: 900;
+}
+
+.para {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: hsl(252, 63%, 62%);
+}
+
+.active:hover {
+    font-weight: 900;
+}
+
+.card-bg {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.music {
+    margin-right: -100px;
+}
+
+.button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    width: 365px;
+    box-shadow: 0px 15px 5px hsl(225, 100%, 94%);
+}
+
+.button:hover {
+    background-color: hsl(252, 63%, 62%);
+    cursor: pointer;
+}
+
+footer {
+    width: 450px;
+}
+
+@media (max-width:450px) {
+    body {
+        background-image: url("images\pattern-background-mobile.svg");
+        font-size: 10px;
+    }
+    .card {
+        width: 340px;
+    }
+    .button {
+        width: 250px;
+    }
+    .music {
+        margin-right: -72px;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    .Annual {
+        padding: 2px;
+    }
+    .Annual p {
+        font-size: 14px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:450px) {
+    .card {
+        width: 255px;
+    }
+    .music {
+        margin-right: -60px;
+        width: 40px;
+    }
+    .Annual p {
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .button {
+        width: 165px;
+    }
+}
