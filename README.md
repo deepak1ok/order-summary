@@ -15,13 +15,13 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/desktop-design.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/deepak1ok/order-summary.git)
+- Live Site URL: (https://order-summary-deepak.netlify.app)
 
 
 
